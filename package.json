@@ -3,7 +3,7 @@
   "private": false,
   "version": "0.0.1",
   "type": "module",
-  "homepage": "https://Pyum.github.io/el_chepo_503",
+  "homepage": "https://pyum.github.io/Dads-Store/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

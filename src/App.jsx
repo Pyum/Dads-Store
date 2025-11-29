@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Product from "./pages/Product";
 import Navbar from "./components/Navbar";
@@ -8,7 +8,7 @@ import "./styles.css";
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -16,6 +16,6 @@ export default function App() {
         <Route path="/product/:id" element={<Product />} />
       </Routes>
       <Footer />
-    </BrowserRouter>
+    </HashRouter>
   );
 }

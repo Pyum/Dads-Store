@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Footer() {
   return (
     <footer style={{
@@ -19,24 +21,24 @@ export default function Footer() {
 
         {/* Center: Nav links */}
         <div style={{display:"flex", gap:"30px"}}>
-          <a href="/" style={{color:"#fff", textDecoration:"none"}}>Shop</a>
-          <a href="/about" style={{color:"#fff", textDecoration:"none"}}>About</a>
-          <a href="/contact" style={{color:"#fff", textDecoration:"none"}}>Contact</a>
+          <Link to="/" style={{ color: "#fff", textDecoration: "none" }}>Shop</Link>
+          <Link to="/about" style={{ color: "#fff", textDecoration: "none" }}>About</Link>
+          <Link to="/contact" style={{ color: "#fff", textDecoration: "none" }}>Contact</Link>
         </div>
 
         {/* Right: Social Icons */}
         <div style={{display:"flex", gap:"20px"}}>
           <a href="https://www.facebook.com/abel.caballero.315/">
-            <img src="/icons/facebook_icon.png" alt="Facebook" style={{width:"32px", height:"32px", objectFit:"contain"}}/>
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg" alt="Facebook" style={{width:"32px", height:"32px", objectFit:"contain"}}/>
           </a>
           <a href="https://www.instagram.com/el_chepo_503/">
-            <img src="/icons/instagram_icon.png" alt="Instagram" style={{width:"32px", height:"32px", objectFit:"contain"}}/>
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg" alt="Instagram" style={{width:"32px", height:"32px", objectFit:"contain"}}/>
           </a>
           <a href="https://www.tiktok.com/@el_chepo_503">
-            <img src="/icons/tiktok_icon.png" alt="TikTok" style={{width:"30px", height:"30px", objectFit:"contain"}}/>
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/tiktok.svg" alt="TikTok" style={{width:"32px", height:"32px", objectFit:"contain"}}/>
           </a>
           <a href="https://www.youtube.com/@el_chepo_503/shorts">
-            <img src="/icons/youtube_icon.png" alt="YouTube" style={{width:"34px", height:"34px", objectFit:"contain"}}/>
+            <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/youtube.svg" alt="YouTube" style={{width:"32px", height:"32px", objectFit:"contain"}}/>
           </a>
         </div>
       </div>
