@@ -10,7 +10,7 @@ export default function ProductCard({ product }) {
       textAlign:"center"
     }}>
       <img 
-        src={product.image} 
+        src={product.images[0]} 
         alt={product.name} 
         style={{width:"100%", borderRadius:"6px"}}
       />
